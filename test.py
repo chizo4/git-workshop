@@ -7,3 +7,5 @@ print(random_list)
 
 a = 1
 b = 2
+c = 2
+d = 3
