@@ -10,7 +10,8 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 - [`Git` Installation](#git-installation-%EF%B8%8F)
 - [LCL: Essentials Cheatsheet](#lcl-essentials-cheatsheet-)
 - [Git: Essentials Cheatsheet](#git-essentials-cheatsheet-)
-- [Further Resources](#further-resources)
+- [Further Resources](#further-resources-)
+- [Contribution](#contribution-)
 
 ---
 
@@ -149,7 +150,12 @@ Furthermore, the table includes essential `Git` commands (at least for me) and t
 
 ---
 
-## Further Resources
+## Further Resources 🔥
 *Content coming soon...*
 
 ---
+
+## Contribution & Collaboration 🤝
+
+> **Note**
+In case you found a mistake or had an idea on how to expand this guide, feel free to contact me via any of the links included in my [GitHub bio page](https://github.com/chizo4). You might also contribute to the project by opening a [Pull Request](https://github.com/chizo4/git-workshop/pulls) with suggested improvements.
