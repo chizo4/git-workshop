@@ -151,7 +151,43 @@ Furthermore, the table includes essential `Git` commands (at least for me) and t
 ---
 
 ## Further Resources 🔥
-*Content coming soon...*
+
+Enhance your `Git` and `GitHub` experience with these advanced tools and concepts.
+
+### Aliasing Commands
+Create shortcuts for frequently used commands to streamline your `Git` workflow. Here are some of my (many) suggestions. Feel free to add these aliases to your `.zshrc` (or `.bashrc`):
+
+```shell
+alias gadd='git add'
+alias gbr='git branch'
+alias gbr_all='git branch -a'
+alias gcheck='git checkout'
+alias gcheck_new='git checkout -b'
+alias gclone='git clone'
+alias gcomm='git commit -m'
+alias gpull='git pull'
+alias gpush='git push'
+alias gst='git status'
+```
+
+### The `.gitignore` File
+The `.gitignore` file is a must-have in any `Git` repo. It tells `Git` which files or directories to ignore in a particular project. Typically, you'll exclude: temporary files created by your IDE, build artifacts or compiled files, log files, databases, and config files with sensitive information.
+
+Here is a simple `.gitignore` example for `Python`:
+
+```shell
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+dist/
+```
+
+### GitHub CLI
+The GitHub CLI (`gh`) extends `GitHub` features to your terminal. Use it to manage repositories, issues, pull requests, and more without leaving your command line. It's a very efficient tool for developers who work predominantly within their terminals. Found out more [here](https://cli.github.com/).
 
 ---
 
