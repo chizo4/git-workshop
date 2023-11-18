@@ -17,7 +17,7 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 
 ## What is `Git`? 🧐
 
-`Git` is a distributed version control system (`VCS`) that facilitates better coding efficiency and software maintenance. It is an essential tool for collaboration, allowing multiple people to work on the same project without conflicts. Here are some key points about `Git` from [these slides]():
+`Git` is a distributed version control system (`VCS`) that facilitates better coding efficiency and software maintenance. It is an essential tool for collaboration, allowing multiple people to work on the same project without conflicts. Here are some key points about `Git` from [these slides](https://github.com/chizo4/git-workshop/blob/main/slides/Git_GitHub_Workshop.pdf):
 
 - **Efficiency and Maintenance**: `Git` optimizes the workflow in development projects, making it easier to track changes and maintain code.
 - **Collaboration**: `Git` is designed for team collaboration, enabling developers to work together on software projects seamlessly.
