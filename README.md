@@ -6,12 +6,12 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 ---
 
 ## Table of Contents 📖
-- [What is `Git`?](#what-is-git-) 
-- [`Git` Installation](#git-installation-%EF%B8%8F)
-- [LCL: Essentials Cheatsheet](#lcl-essentials-cheatsheet-)
-- [Git: Essentials Cheatsheet](#git-essentials-cheatsheet-)
-- [Further Resources](#further-resources-)
-- [Contribution](#contribution-)
+- [What is `Git`? 🧐](#what-is-git-) 
+- [`Git` Installation 🛠️](#git-installation-%EF%B8%8F)
+- [`LCL`: Essentials Cheatsheet 🐧](#lcl-essentials-cheatsheet-)
+- [`Git`: Essentials Cheatsheet 🌳](#git-essentials-cheatsheet-)
+- [Further Resources 🔥](#further-resources-)
+- [Contribution & Collaboration 🤝](#contribution--collaboration-)
 
 ---
 
