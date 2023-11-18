@@ -15,30 +15,32 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 ### What is Git?
 *Content coming soon...*
 
-### Git Installation
+#
 
-Follow the steps below to install Git and set up GitHub on your machine. Otherwise, you might use the slides [here]().
+## Git Installation 🛠️
 
-#### Step 1: Git Installation
+Follow the steps below to setup `Git` and `GitHub` on your machine. Otherwise, you might also use the slides found [here]().
+
+#### Step 1️⃣: `Git` Installation
 1. **Check for Pre-installed Git**:
-   - Open a terminal and type:
+   - Open the terminal and type:
      ```shell
      git --version
      ```
-   - If a version number appears, Git is already installed on your machine.
+   - If a version appears, `Git` is already installed on your machine.
 
-2. **Install Git (if not already installed)**:
-   - Download Git from [https://git-scm.com/download](https://git-scm.com/download).
+2. **Install `Git` (if not already installed)**:
+   - Download Git from [this website](https://git-scm.com/download).
    - Ensure to select the correct OS and the latest version.
 
-#### Step 2: Create a GitHub Account
+#### Step 2️⃣: Create a `GitHub` Account
 1. **Sign Up**:
    - Go to [github.com](https://github.com) and follow the link to start a free account.
    - Follows the steps, i.e. provide basic information (name, email, etc.).
-   - NB: Students can often get a PRO account free of charge.
+   - NB: Students can often get a `PRO account` free of charge.
 
-#### Step 3: Connect GitHub to Your Machine
-1. **Set Git Credentials**:
+#### Step 3️⃣: Connect `GitHub` to Your Machine
+1. **Set `Git` Credentials**:
    - Open your terminal and set your Git credentials:
      ```shell
      git config --global user.name "Your Name"
@@ -52,25 +54,25 @@ Follow the steps below to install Git and set up GitHub on your machine. Otherwi
      ```
 2. **SSH Key Setup**:
    - Navigate to your SSH directory with:
-     ```
+     ```shell
      cd ~/.ssh
      ```
    - Check for existing SSH keys:
-     ```
+     ```shell
      (ls id_rsa && ls id_rsa.pub) && echo yes || echo no
      ```
    - If you don’t have the SSH keys (`id_rsa` and `id_rsa.pub`), generate them with:
-     ```
+     ```shell
      ssh-keygen -t rsa -C "your_email@example.com"
      ```
    - Copy the SSH public key to your clipboard:
-     ```
+     ```shell
      pbcopy < ~/.ssh/id_rsa.pub
      ```
-   - Go to [github.com](https://github.com), click on “Account Settings” -> “SSH Keys”.
+   - Go to [github.com](https://github.com), click on `“Account Settings”` ➡️ `“SSH Keys”`.
    - Add a label for your key (e.g., “My MacBook”) and paste the copied key.
    - Confirm the setup by running:
-     ```
+     ```shell
      ssh -T git@github.com
      ```
    - You should see a message confirming that you've successfully authenticated.
