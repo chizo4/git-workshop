@@ -118,7 +118,7 @@ Here are the top commands to get you started with navigating and managing files 
 
 ---
 
-## Git Essentials - Cheatsheet
+## `Git`: Essentials Cheatsheet 🌳
 Furthermore, the table includes essential `Git` commands (at least for me) and their brief descriptions.
 
 | Command | Description |
