@@ -8,8 +8,8 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 ## Table of Contents 📖
 - [What is `Git`?](#what-is-git-) 
 - [`Git` Installation](#git-installation-%EF%B8%8F)
-- [LCL: Essentials Cheatsheet](#lcl-essentials---cheatsheet)
-- [Git Essentials - Cheatsheet](#git-essentials---cheatsheet)
+- [LCL: Essentials Cheatsheet](#lcl-essentials-cheatsheet-)
+- [Git: Essentials Cheatsheet](#git-essentials---cheatsheet)
 - [Further Resources](#further-resources)
 
 ---
@@ -119,7 +119,33 @@ Here are the top commands to get you started with navigating and managing files 
 ---
 
 ## Git Essentials - Cheatsheet
-*Content coming soon...*
+Furthermore, the table includes essential `Git` commands (at least for me) and their brief descriptions.
+
+| Command | Description |
+|---------|-------------|
+| `git add [file]` | Add a file to the staging area, marking it for inclusion in the next commit. |
+| `git branch [branch-name]` | Create a new branch with the specified name. |
+| `git branch -a` | List all branches, including remote-tracking ones. |
+| `git branch -r` | List all remote-tracking branches. |
+| `git checkout [branch-name]` | Switch to the specified branch. |
+| `git checkout -b [branch-name]` | Create a new branch and switch to it. |
+| `git clone [repository]` | Clone a repository into a new directory. |
+| `git commit -m "[message]"` | Record changes to the repository with the given commit message. |
+| `git diff --patience` | Show differences between files with a more optimized algorithm. |
+| `git diff --cached` | Show changes between the staging area and the last commit. |
+| `git fetch [remote]` | Download objects and refs from another repository. |
+| `git init` | Initialize a new `Git` repository. |
+| `git log` | Show the commit logs. |
+| `git pull [remote] [branch]` | Fetch from a remote repo and integrates with the current branch. |
+| `git push [remote] [branch]` | Update remote refs along with associated objects. |
+| `git push --force-with-lease` | Safely force-push changes ensuring you don't overwrite others' work (e.g. after rebasing). |
+| `git rebase -i [branch]` | Reapply commits on top of another base tip interactively. |
+| `git rebase --continue` | Continue the rebase after resolving conflicts. |
+| `git rm -r --cached [file]` | Remove files from the index (staging area), but not from the working directory. |
+| `git status` | Show the working tree status. |
+| `git stash` | Stash the changes in a dirty working directory away. |
+| `git stash pop` | Apply the stashed changes and remove them from the stash list. |
+| `git switch -c [branch-name]` | Create a new branch and switch to it (newer version of checkout -b). |
 
 ---
 
