@@ -6,9 +6,9 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 ---
 
 ## Table of Contents 📖
-- [What is `Git`?](#what-is-git) 
+- [What is `Git`?](#what-is-git-) 
 - [`Git` Installation](#git-installation-%EF%B8%8F)
-- [LCL Essentials - Cheatsheet](#lcl-essentials---cheatsheet)
+- [LCL: Essentials Cheatsheet](#lcl-essentials---cheatsheet)
 - [Git Essentials - Cheatsheet](#git-essentials---cheatsheet)
 - [Further Resources](#further-resources)
 
@@ -16,7 +16,7 @@ This repository covers materials associated with the `Git & GitHub Workshop` aut
 
 ## What is `Git`? 🧐
 
-`Git` is a distributed version control system (`VCS`) that facilitates better coding efficiency and software maintenance. It is an essential tool for collaboration, allowing multiple people to work on the same project without conflicts. Here are some key points about `Git`:
+`Git` is a distributed version control system (`VCS`) that facilitates better coding efficiency and software maintenance. It is an essential tool for collaboration, allowing multiple people to work on the same project without conflicts. Here are some key points about `Git` from [these slides]():
 
 - **Efficiency and Maintenance**: `Git` optimizes the workflow in development projects, making it easier to track changes and maintain code.
 - **Collaboration**: `Git` is designed for team collaboration, enabling developers to work together on software projects seamlessly.
@@ -96,8 +96,25 @@ This guide covers the basic steps to install Git and set up GitHub on your machi
 
 ---
 
-## LCL Essentials - Cheatsheet
-*Content coming soon...*
+## `LCL`: Essentials Cheatsheet 🐧
+Here are the top commands to get you started with navigating and managing files in a `Linux Command Line` environment.
+
+| Command | Description |
+|---------|-------------|
+| `pwd` | Print the current working directory path. |
+| `ls` | List all files and directories in the current directory. |
+| `cd [directory]` | Change the current directory to the specified one. |
+| `mkdir [directory]` | Create a new directory with the specified name. |
+| `rmdir [directory]` | Remove a directory (must be empty). |
+| `rm [file]` | Remove a specified file (for directory add `-rf` flag). |
+| `cp [source] [destination]` | Copy files or directories from source to destination. |
+| `mv [source] [destination]` | Move files or directories from source to destination. |
+| `touch [file]` | Create a new file or update the timestamp of an existing file. |
+| `echo [text] > [file]` | Write text to a file, overwriting previous content. |
+| `cat [file]` | Display the contents of a file. |
+| `chmod [permissions] [file]` | Change the file permission. |
+| `grep [pattern] [file]` | Search for a pattern in a file and prints all matching lines. |
+| `find [directory] -name [filename]` | Search for a file within a directory and its subdirectories. |
 
 ---
 
