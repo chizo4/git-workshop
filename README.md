@@ -1,25 +1,39 @@
 # `Git & GitHub Workshop` 📟
 
 > **Note**
-This repository covers materials associated with the `Git & GitHub Workshop` authored by Filip J. Cierkosz. The resources found here are designed to help to understand and learn how to effectively use `Git` and `GitHub`. `README.md` of this repo complements the concepts introduced in [the slides]().
+This repository covers materials associated with the `Git & GitHub Workshop` authored by Filip J. Cierkosz. The resources found here are designed to help to understand and learn how to effectively use `Git` and `GitHub`. `README.md` of this repo complements the concepts introduced in [the slides](https://github.com/chizo4/git-workshop/tree/main/slides).
 
-## Table of Contents
-- [What is Git?](#what-is-git) 
-- [`Git` Installation](#git-installation)
+---
+
+## Table of Contents 📖
+- [What is `Git`?](#what-is-git) 
+- [`Git` Installation](#git-installation-%EF%B8%8F)
 - [LCL Essentials - Cheatsheet](#lcl-essentials---cheatsheet)
 - [Git Essentials - Cheatsheet](#git-essentials---cheatsheet)
 - [Further Resources](#further-resources)
 
 ---
 
-## What is Git?
-*Content coming soon...*
+## What is `Git`? 🧐
+
+`Git` is a distributed version control system (`VCS`) that facilitates better coding efficiency and software maintenance. It is an essential tool for collaboration, allowing multiple people to work on the same project without conflicts. Here are some key points about `Git`:
+
+- **Efficiency and Maintenance**: `Git` optimizes the workflow in development projects, making it easier to track changes and maintain code.
+- **Collaboration**: `Git` is designed for team collaboration, enabling developers to work together on software projects seamlessly.
+- **Versatility**: It is not just for software development. `Git` is useful in any scenario that requires tracking changes, such as personal, university, and open-source projects.
+- **Market Relevance**: Many companies require knowledge of `Git` as part of their development process.
+- **Popularity**: Over 100 million developers use `GitHub`, a platform that integrates with Git, indicating the widespread adoption of this system.
+- **Branch Management**: `Git` allows the creation of multiple 'branches' which aid in isolated development efforts, thereby keeping the main project stable.
+- **Version Control**: It is crucial for managing complex projects. `Git` enables you to track iterations, revert to previous versions, and manage parallel work streams effectively.
+
+> **Note**
+`Git` should not be confused with `GitHub`. While `Git` is a version control system, `GitHub` is a platform for hosting and sharing files and managing `Git` repositories online. Other platforms like `GitLab` also use `Git`. Understanding `Git` is crucial for anyone involved in software development, and the number of `Git` users continues to grow exponentially.
 
 ---
 
 ## `Git` Installation 🛠️
 
-Follow the steps below to setup `Git` and `GitHub` on your machine. Otherwise, you might also use the slides found [here]().
+Follow the steps below to setup `Git` and `GitHub` on your machine. Otherwise, you might also use the slides found [here](https://github.com/chizo4/git-workshop/blob/main/slides/Git_GitHub_Installation_Guides.pdf).
 
 #### Step 1️⃣: `Git` Installation
 1. **Check for Pre-installed Git**:
